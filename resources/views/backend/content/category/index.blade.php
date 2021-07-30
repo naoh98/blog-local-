@@ -11,6 +11,7 @@
             {{session('error')}}
         </div>
     @endif
+    <a href="{{route("createblog")}}" class="btn btn-success"></a>
 <table class="table">
     <thead>
         <tr>
