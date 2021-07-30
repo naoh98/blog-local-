@@ -26,9 +26,9 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-//        Schema::defaultStringLength(250);
-//        //pass data đến tất cả page, kể cả partial
-//            $menubar = DB::table("category")->get();
-//            view()->share("menubar",$menubar);
+        Schema::defaultStringLength(250);
+        //pass data đến tất cả page, kể cả partial
+            $menubar = DB::table("category")->get();
+            view()->share("menubar",$menubar);
     }
 }
