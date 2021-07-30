@@ -27,10 +27,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        if($this->app->environment('production')) {
-            URL::forceScheme('https');
-        }
-        //
         Schema::defaultStringLength(250);
         //pass data đến tất cả page, kể cả partial
             $menubar = DB::table("category")->get();
