@@ -35,6 +35,7 @@ class CategoryController extends Controller
             ->join("category","blog.cat_id","=","category.id")
             ->join("users","blog.user_id","=","users.id")
             ->select("blog.*","users.name","category.category_name")
+            ->orderBy("id","ASC")
             ->paginate(12);
         return view("frontend.content.blog.blog_filter",["blog"=>$blog]);
     }
