@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\URL;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,7 +13,9 @@ use Illuminate\Support\Facades\Auth;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+if (env('APP_ENV') === 'blogmotion') {
+    URL::forceSchema('https');
+}
 //------------------------------------------FRONTEND---------------------------------------------//
 //-----------------------------------------------------------------------------------------------//
 //view trang bìa
