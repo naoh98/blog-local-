@@ -2,8 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\URL;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,10 +12,7 @@ use Illuminate\Support\Facades\URL;
 | contains the "web" middleware group. Now create something great!
 |
 */
-// force all page to https
-if (env('APP_ENV') === 'production') {
-    URL::forceScheme('https');
-}
+
 //------------------------------------------FRONTEND---------------------------------------------//
 //-----------------------------------------------------------------------------------------------//
 //view trang bìa
