@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <title>Welcome</title>
     <!--bootstrap-->
-    <link rel="stylesheet" href="{{asset("/blog")}}/css/bootstrap/css/bootstrap.min.css">
-    <script src="{{asset("/blog")}}/css/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="{{asset("//blog")}}/css/bootstrap/css/bootstrap.min.css">
+    <script src="{{asset("//blog")}}/css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!--jquery-->
-    <script src="{{asset("/blog")}}/js/jquery.js"></script>
+    <script src="{{asset("//blog")}}/js/jquery.js"></script>
     <!--font awesome-->
-    <link rel="stylesheet" href="{{asset("/blog")}}/font_awesome/css/all.css">
-    <script src="{{asset("/blog")}}/font_awesome/js/all.js"></script>
+    <link rel="stylesheet" href="{{asset("//blog")}}/font_awesome/css/all.css">
+    <script src="{{asset("//blog")}}/font_awesome/js/all.js"></script>
     <!--custom css-->
-    <link rel="stylesheet" href="{{asset("/blog")}}/css/main.css">
+    <link rel="stylesheet" href="{{asset("//blog")}}/css/main.css">
 </head>
 <body style="background: whitesmoke">
 <div class="container-fluid home_original">
@@ -42,6 +42,6 @@
     </div>
 </div>
 <!--custom js-->
-<script src="{{asset("/blog")}}/js/main.js"></script>
+<script src="{{asset("//blog")}}/js/main.js"></script>
 </body>
 </html>
