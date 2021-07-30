@@ -20,7 +20,7 @@ class HomeController extends Controller
             ->join("users","blog.user_id","=","users.id")
             ->join("category","blog.cat_id","=","category.id")
             ->select("category.category_name","users.name","blog.*")
-            ->orderBy("id","ASC")
+            ->orderBy("id","asc")
             ->paginate(12);
         return view("frontend.content.home",["blog"=>$blog]);
     }
