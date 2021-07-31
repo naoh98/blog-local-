@@ -43,7 +43,7 @@ class CategoryController extends Controller
     public function search(Request $request){
         if ($request->text){
             $search = DB::table("users")
-                ->where('LOWER(users.name)',"like","%LOWER(".$request->text.")%")
+                ->where('LOWER(users.name)',"like","%".strtolower($request->text)."%")
                 ->join("blog","users.id","=","blog.user_id")
                 ->join("category","category.id","=","blog.cat_id")
                 ->select("blog.*","users.name","category.category_name")
