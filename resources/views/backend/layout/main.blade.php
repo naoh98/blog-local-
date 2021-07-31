@@ -8,6 +8,7 @@
     <meta name="author" content="">
 
     <title>@yield("title")</title>
+    <link rel="icon" href="{{ URL::asset('/favicon.ico',true) }}" type="image/x-icon"/>
 
     <!-- Custom fonts for this template-->
     <link href="{{asset('/sbadmin2/vendor/fontawesome-free/css/all.min.css',true)}}" rel="stylesheet" type="text/css">

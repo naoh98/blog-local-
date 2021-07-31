@@ -1,5 +1,5 @@
 @extends("frontend.layout.main")
-@section("title","Home")
+@section("title","Blogmotion")
 @section("content")
     <div class="row news">
         <?php

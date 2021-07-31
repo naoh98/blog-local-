@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>@yield("title")</title>
+    <link rel="icon" href="{{ URL::asset('/favicon.ico',true) }}" type="image/x-icon"/>
     <!--bootstrap-->
     <link rel="stylesheet" href="{{asset('/blog/css/bootstrap/css/bootstrap.min.css',true)}}">
     <script src="{{asset('/blog/css/bootstrap/js/bootstrap.bundle.min.js',true)}}"></script>

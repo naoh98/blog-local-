@@ -13,7 +13,9 @@ use Illuminate\Support\Facades\URL;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+if (env('APP_ENV') === 'blogmotion') {
+    URL::forceScheme('https');
+}
 //------------------------------------------FRONTEND---------------------------------------------//
 //-----------------------------------------------------------------------------------------------//
 //view trang bìa

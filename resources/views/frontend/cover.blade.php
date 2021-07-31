@@ -13,6 +13,7 @@
     <script src="{{asset('/blog/font_awesome/js/all.js',true)}}"></script>
     <!--custom css-->
     <link rel="stylesheet" href="{{asset('/blog/css/main.css',true)}}">
+    <link rel="icon" href="{{ URL::asset('/favicon.ico',true) }}" type="image/x-icon"/>
 </head>
 <body style="background: whitesmoke">
 <div class="container-fluid home_original">
