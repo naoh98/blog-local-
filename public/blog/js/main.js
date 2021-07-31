@@ -88,7 +88,7 @@ $(document).ready(function () {
         }
     });
     $(".search-modal input").on("change", function () {
-       let text=$(this).val();
+       let text=$(this).val().toLowerCase();
        let url = $(this).data("url");
        // console.log(text);
         let obj ={};
