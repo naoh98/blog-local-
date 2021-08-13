@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <title>Welcome</title>
     <!--bootstrap-->
-    <link rel="stylesheet" href="{{asset('/blog/css/bootstrap/css/bootstrap.min.css',true)}}">
-    <script src="{{asset('/blog/css/bootstrap/js/bootstrap.bundle.min.js',true)}}"></script>
+    <link rel="stylesheet" href="{{asset('/blog/css/bootstrap/css/bootstrap.min.css')}}">
+    <script src="{{asset('/blog/css/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
     <!--jquery-->
-    <script src="{{asset('/blog/js/jquery.js',true)}}"></script>
+    <script src="{{asset('/blog/js/jquery.js')}}"></script>
     <!--font awesome-->
     <link rel="stylesheet" href="{{asset('/blog/font_awesome/css/all.css')}}">
-    <script src="{{asset('/blog/font_awesome/js/all.js',true)}}"></script>
+    <script src="{{asset('/blog/font_awesome/js/all.js')}}"></script>
     <!--custom css-->
-    <link rel="stylesheet" href="{{asset('/blog/css/main.css',true)}}">
-    <link rel="icon" href="{{ URL::asset('/favicon.ico',true) }}" type="image/x-icon"/>
+    <link rel="stylesheet" href="{{asset('/blog/css/main.css')}}">
+    <link rel="icon" href="{{ URL::asset('/favicon.ico') }}" type="image/x-icon"/>
 </head>
 <body style="background: whitesmoke">
 <div class="container-fluid home_original">
@@ -43,6 +43,6 @@
     </div>
 </div>
 <!--custom js-->
-<script src="{{asset('/blog/js/main.js',true)}}"></script>
+<script src="{{asset('/blog/js/main.js')}}"></script>
 </body>
 </html>
